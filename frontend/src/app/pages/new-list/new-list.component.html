@@ -1,0 +1,16 @@
+<div class="centered-content">
+  <div class="modal-box has-background-black">
+    <h1 class="title has-text-primary">
+      Criar uma nova lista
+    </h1>
+
+    <input #listTitleInput class="input has-background-light has-text-white is-medium" type="text" placeholder="Enter list name...">
+    <br><br>
+    <div class="buttons is-right">
+      <button class="button is-medium is-light has-text-danger" routerLink="/">Cancelar</button>
+      <button class="button is-primary has-text-white is-medium" (click)="createList(listTitleInput.value)">Criar</button>
+    </div>
+
+    
+  </div>
+</div>
